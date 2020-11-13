@@ -1,4 +1,3 @@
-@prefix : <file:///ERROR/EMPTY/PREFIX/BANNED/> .
 @prefix HCPMMP: <http://uri.interlex.org/hcp/uris/mmp/labels/> .
 @prefix ilxtr: <http://uri.interlex.org/tgbugs/uris/readable/> .
 @prefix NIFRID: <http://uri.neuinfo.org/nif/nifstd/readable/> .
