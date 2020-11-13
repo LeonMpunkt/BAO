@@ -11,7 +11,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://ontology.neuinfo.org/NIF/ttl/generated/parcellation/hcpmmp.ttl> a owl:Ontology ;
-    owl:imports <http://ontology.neuinfo.org/NIF/ttl/generated/parcellation-core.ttl> ;
+    owl:imports <http://ontology.neuinfo.org/NIF/ttl/generated/parcellation-artifacts.ttl> ;
     rdfs:label "Human Connectome Project Multi-Modal human cortical parcellation" ;
     skos:altLabel "hcpmmp" ;
     owl:versionInfo "2018-02-25" ;
@@ -19,6 +19,44 @@
     ilxtr:rootClass HCPMMP: ;
     prov:wasDerivedFrom <https://github.com/tgbugs/pyontutils/blob/1c18b4fe6548dd48d18e1c9dbae1321c9b106bf9/pyontutils/resources/human_connectome_project_2016.csv> ;
     prov:wasGeneratedBy <https://github.com/tgbugs/pyontutils/blob/32ab4fa1efad87f6421eb488b28bec81734b41de/pyontutils/parcellation.py#L1544> .
+
+
+
+### Parcellation Core
+
+ilxtr:parcellationLabel a owl:Class ;
+    rdfs:label "Parcellation Label" ;
+    skos:definition "Parcellation labels are strings characthers sometimes associated with a unique identifier, such as an index number or an iri." .
+
+ilxtr:parcellationRegion a owl:Class ;
+    rdfs:label "Parcellation Region" ;
+    skos:definition "Parcellation regions are 'anatomical entities' that correspond to some part of a real biological system and are equivalent to an intersection between a parcellation label and a specific version of an atlas that defines or uses that label and that provides a definitive (0, 1, or probabilistic) way to determine whether a particular sample corresponds to any given region. " .
+
+
+### Parcellation Artifacts
+
+<http://uri.interlex.org/hcp/uris/mmp/versions/1.0> a owl:Class ;
+    rdfs:label "Human Connectome Project Multi-Modal human cortical parcellation" ;
+    NIFRID:synonym "HCP Multi-Modal Parcellation",
+        "Human Connectome Project Multi-Modal Parcellation",
+        "Human Connectome Project Multi-Modal Parcellation version 1.0" ;
+    NIFRID:abbrev "HCP MMP 1.0",
+        "HCP-MMP1.0",
+        "HCP_MMP",
+        "HCPMMP" ;
+    rdfs:subClassOf ilxtr:parcellationTerminology,
+        [ a owl:Restriction ;
+            owl:onProperty ilxtr:isDefinedInDevelopmentalStage ;
+            owl:allValuesFrom UBERON:0000113 ],
+        [ a owl:Restriction ;
+            owl:onProperty ilxtr:isDefinedInTaxon ;
+            owl:allValuesFrom NCBITaxon:9606 ] ;
+    dc:date "2016-07-20" ;
+    dc:source <https://github.com/tgbugs/pyontutils/blob/1c18b4fe6548dd48d18e1c9dbae1321c9b106bf9/pyontutils/resources/human_connectome_project_2016.csv> ;
+    dcterms:bibliographicCitation <https://doi.org/10.1038/nature18933> ;
+    ilxtr:artifactVersion "1.0" ;
+    ilxtr:hasDerivedArtifact <http://ontology.neuinfo.org/NIF/ttl/generated/parcellation/hcpmmp.ttl> .
+
 
 ### Classes
 
