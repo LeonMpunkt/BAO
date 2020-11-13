@@ -1,0 +1,1070 @@
+@prefix : <http://www.thevirtualbrain.org/tvb-o/brainParc.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.thevirtualbrain.org/tvb-o/brainParc.owl> .
+
+<http://www.thevirtualbrain.org/tvb-o/brainParc.owl> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.thevirtualbrain.org/tvb-o/brainParc#size
+<http://www.thevirtualbrain.org/tvb-o/brainParc#size> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.thevirtualbrain.org/tvb-o/brainParc#x_center
+<http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.thevirtualbrain.org/tvb-o/brainParc#y_center
+<http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> rdf:type owl:AnnotationProperty .
+
+
+###  http://www.thevirtualbrain.org/tvb-o/brainParc#z_center
+<http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  file:/srv/protege/webprotege-data/uploads/1
+<file:/srv/protege/webprotege-data/uploads/1> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "482" ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "41.84269662921349"^^xsd:double ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-17.146067415730343"^^xsd:double ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-5.235955056179776"^^xsd:double ;
+                                              rdfs:label "Anterior_intra-parietal_sulcus_hIP1_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/10
+<file:/srv/protege/webprotege-data/uploads/10> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "342" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "29.87172011661808"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-3.1720116618075735"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-23.137026239067055"^^xsd:double ;
+                                               rdfs:label "Amygdala_laterobasal_group_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/100
+<file:/srv/protege/webprotege-data/uploads/100> rdf:type owl:Class ;
+                                                rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                                <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "26" ;
+                                                <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "33.48148148148148"^^xsd:double ;
+                                                <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-26.740740740740748"^^xsd:double ;
+                                                <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "9.555555555555557"^^xsd:double ;
+                                                rdfs:label "Insula_Ig1_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/101
+<file:/srv/protege/webprotege-data/uploads/101> rdf:type owl:Class ;
+                                                rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                                <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "96" ;
+                                                <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-36.49484536082474"^^xsd:double ;
+                                                <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-21.278350515463913"^^xsd:double ;
+                                                <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "8.226804123711347"^^xsd:double ;
+                                                rdfs:label "Insula_Ig2_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/102
+<file:/srv/protege/webprotege-data/uploads/102> rdf:type owl:Class ;
+                                                rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                                <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "76" ;
+                                                <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "36.973684210526315"^^xsd:double ;
+                                                <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-19.89473684210526"^^xsd:double ;
+                                                <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "8.0"^^xsd:double ;
+                                                rdfs:label "Insula_Ig2_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/103
+<file:/srv/protege/webprotege-data/uploads/103> rdf:type owl:Class ;
+                                                rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                                <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "56" ;
+                                                <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "1.1578947368421098"^^xsd:double ;
+                                                <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-8.0"^^xsd:double ;
+                                                <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-14.982456140350877"^^xsd:double ;
+                                                rdfs:label "Mamillary_body" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/11
+<file:/srv/protege/webprotege-data/uploads/11> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "197" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-18.191919191919197"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-4.121212121212125"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-15.565656565656568"^^xsd:double ;
+                                               rdfs:label "Amygdala_superficial_group_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/12
+<file:/srv/protege/webprotege-data/uploads/12> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "192" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "21.492227979274617"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-3.0051813471502555"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-13.305699481865283"^^xsd:double ;
+                                               rdfs:label "Amygdala_superficial_group_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/13
+<file:/srv/protege/webprotege-data/uploads/13> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "1532" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-50.802872062663184"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "12.180156657963437"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "19.328981723237604"^^xsd:double ;
+                                               rdfs:label "Broca's_area_BA44_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/14
+<file:/srv/protege/webprotege-data/uploads/14> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "1086" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "53.94459833795014"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "12.361957525392427"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "17.200369344413673"^^xsd:double ;
+                                               rdfs:label "Broca's_area_BA44_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/15
+<file:/srv/protege/webprotege-data/uploads/15> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "1100" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "41.84269662921349"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-17.146067415730343"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-5.235955056179776"^^xsd:double ;
+                                               rdfs:label "Broca's_area_BA45_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/16
+<file:/srv/protege/webprotege-data/uploads/16> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "1291" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "52.91402013942681"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "27.745933384972886"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "11.646785437645235"^^xsd:double ;
+                                               rdfs:label "Broca's_area_BA45_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/17
+<file:/srv/protege/webprotege-data/uploads/17> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "762" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-28.18610747051114"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-25.287024901703802"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-12.20707732634338"^^xsd:double ;
+                                               rdfs:label "Hippocampus_cornu_ammonis_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/18
+<file:/srv/protege/webprotege-data/uploads/18> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "809" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "41.84269662921349"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-17.146067415730343"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-5.235955056179776"^^xsd:double ;
+                                               rdfs:label "Hippocampus_cornu_ammonis_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/19
+<file:/srv/protege/webprotege-data/uploads/19> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "636" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-22.60910518053376"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-8.16326530612244"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-33.46938775510204"^^xsd:double ;
+                                               rdfs:label "Hippocampus_entorhinal_cortex_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/2
+<file:/srv/protege/webprotege-data/uploads/2> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "289" ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "41.84269662921349"^^xsd:double ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-17.146067415730343"^^xsd:double ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-5.235955056179776"^^xsd:double ;
+                                              rdfs:label "Anterior_intra-parietal_sulcus_hIP1_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/20
+<file:/srv/protege/webprotege-data/uploads/20> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "763" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "24.09947643979058"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-4.900523560209422"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-33.096858638743456"^^xsd:double ;
+                                               rdfs:label "Hippocampus_entorhinal_cortex_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/21
+<file:/srv/protege/webprotege-data/uploads/21> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "73" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-24.285714285714292"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-32.14285714285714"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-4.828571428571422"^^xsd:double ;
+                                               rdfs:label "Hippocampus_dentate_gyrus_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/22
+<file:/srv/protege/webprotege-data/uploads/22> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "71" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "24.901408450704224"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-30.535211267605632"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-3.4929577464788792"^^xsd:double ;
+                                               rdfs:label "Hippocampus_dentate_gyrus_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/23
+<file:/srv/protege/webprotege-data/uploads/23> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "3" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-19.0"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-12.0"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-10.0"^^xsd:double ;
+                                               rdfs:label "Hippocampus_hippocampal-amygdaloid_transition_area_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/24
+<file:/srv/protege/webprotege-data/uploads/24> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "0" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "18.0"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-10.0"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-10.0"^^xsd:double ;
+                                               rdfs:label "Hippocampus_hippocampal-amygdaloid_transition_area_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/25
+<file:/srv/protege/webprotege-data/uploads/25> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "536" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-19.001862197392924"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-27.57914338919926"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-14.234636871508378"^^xsd:double ;
+                                               rdfs:label "Hippocampus_subiculum_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/26
+<file:/srv/protege/webprotege-data/uploads/26> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "547" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "20.80952380952381"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-25.6959706959707"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-14.16117216117216"^^xsd:double ;
+                                               rdfs:label "Hippocampus_subiculum_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/27
+<file:/srv/protege/webprotege-data/uploads/27> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "1001" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-57.81963927855711"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-38.625250501002"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "34.51102204408818"^^xsd:double ;
+                                               rdfs:label "Inferior_parietal_lobule_PF_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/28
+<file:/srv/protege/webprotege-data/uploads/28> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "915" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "61.64192139737992"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-33.2052401746725"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "31.63100436681222"^^xsd:double ;
+                                               rdfs:label "Inferior_parietal_lobule_PF_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/29
+<file:/srv/protege/webprotege-data/uploads/29> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "364" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-48.443835616438356"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-37.79178082191781"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "22.54794520547945"^^xsd:double ;
+                                               rdfs:label "Inferior_parietal_lobule_PFcm_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/3
+<file:/srv/protege/webprotege-data/uploads/3> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "236" ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-45.17299578059072"^^xsd:double ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-40.15189873417722"^^xsd:double ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "41.38396624472574"^^xsd:double ;
+                                              rdfs:label "Anterior_intra-parietal_sulcus_hIP2_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/30
+<file:/srv/protege/webprotege-data/uploads/30> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "317" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "41.84269662921349"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-17.146067415730343"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-5.235955056179776"^^xsd:double ;
+                                               rdfs:label "Inferior_parietal_lobule_PFcm_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/31
+<file:/srv/protege/webprotege-data/uploads/31> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "473" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-52.556291390728475"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-51.70419426048565"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "39.06843267108168"^^xsd:double ;
+                                               rdfs:label "Inferior_parietal_lobule_PFm_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/32
+<file:/srv/protege/webprotege-data/uploads/32> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "859" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "54.62558139534883"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-44.91162790697675"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "38.051162790697674"^^xsd:double ;
+                                               rdfs:label "Inferior_parietal_lobule_PFm_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/33
+<file:/srv/protege/webprotege-data/uploads/33> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "278" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-56.68100358422939"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-25.73476702508961"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "24.89605734767025"^^xsd:double ;
+                                               rdfs:label "Inferior_parietal_lobule_PFop_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/34
+<file:/srv/protege/webprotege-data/uploads/34> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "248" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "41.84269662921349"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-17.146067415730343"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-5.235955056179776"^^xsd:double ;
+                                               rdfs:label "Inferior_parietal_lobule_PFop_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/35
+<file:/srv/protege/webprotege-data/uploads/35> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "376" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-51.593582887700535"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-24.556149732620327"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "34.92513368983957"^^xsd:double ;
+                                               rdfs:label "Inferior_parietal_lobule_PFt_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/36
+<file:/srv/protege/webprotege-data/uploads/36> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "389" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "52.98461538461538"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-24.969230769230762"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "40.46666666666667"^^xsd:double ;
+                                               rdfs:label "Inferior_parietal_lobule_PFt_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/37
+<file:/srv/protege/webprotege-data/uploads/37> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "780" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-44.76962676962677"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-60.8931788931789"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "38.96525096525096"^^xsd:double ;
+                                               rdfs:label "Inferior_parietal_lobule_Pga_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/38
+<file:/srv/protege/webprotege-data/uploads/38> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "1092" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "51.3924977127173"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-55.006404391582805"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "34.24153705397987"^^xsd:double ;
+                                               rdfs:label "Inferior_parietal_lobule_Pga_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/39
+<file:/srv/protege/webprotege-data/uploads/39> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "1301" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-41.98771121351767"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-74.10291858678956"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "30.11827956989248"^^xsd:double ;
+                                               rdfs:label "Inferior_parietal_lobule_PGp_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/4
+<file:/srv/protege/webprotege-data/uploads/4> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "113" ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "41.84269662921349"^^xsd:double ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-17.146067415730343"^^xsd:double ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-5.235955056179776"^^xsd:double ;
+                                              rdfs:label "Anterior_intra-parietal_sulcus_hIP2_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/40
+<file:/srv/protege/webprotege-data/uploads/40> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "1299" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "45.807544264819086"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-70.68360277136259"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "30.65434949961508"^^xsd:double ;
+                                               rdfs:label "Inferior_parietal_lobule_PGp_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/41
+<file:/srv/protege/webprotege-data/uploads/41> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "206" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-48.42718446601942"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-20.262135922330103"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "6.572815533980588"^^xsd:double ;
+                                               rdfs:label "Primary_auditory_cortex_TE1.0_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/42
+<file:/srv/protege/webprotege-data/uploads/42> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "247" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "50.64516129032259"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-13.846774193548384"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "6.032258064516128"^^xsd:double ;
+                                               rdfs:label "Primary_auditory_cortex_TE1.0_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/43
+<file:/srv/protege/webprotege-data/uploads/43> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "164" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-40.16969696969697"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-30.4969696969697"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "10.824242424242428"^^xsd:double ;
+                                               rdfs:label "Primary_auditory_cortex_TE1.1_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/44
+<file:/srv/protege/webprotege-data/uploads/44> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "161" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "41.074074074074076"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-26.086419753086417"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "11.037037037037038"^^xsd:double ;
+                                               rdfs:label "Primary_auditory_cortex_TE1.1_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/45
+<file:/srv/protege/webprotege-data/uploads/45> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "133" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "41.84269662921349"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-17.146067415730343"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-5.235955056179776"^^xsd:double ;
+                                               rdfs:label "Primary_auditory_cortex_TE1.2_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/46
+<file:/srv/protege/webprotege-data/uploads/46> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "99" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "56.5"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-2.239999999999995"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "1.5400000000000063"^^xsd:double ;
+                                               rdfs:label "Primary_auditory_cortex_TE1.2_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/47
+<file:/srv/protege/webprotege-data/uploads/47> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "1064" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-6.62740384615384"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-32.46634615384616"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "65.19711538461539"^^xsd:double ;
+                                               rdfs:label "Primary_motor_cortex_BA4a_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/48
+<file:/srv/protege/webprotege-data/uploads/48> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "926" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "16.61739130434782"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-27.936956521739134"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "64.0"^^xsd:double ;
+                                               rdfs:label "Primary_motor_cortex_BA4a_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/49
+<file:/srv/protege/webprotege-data/uploads/49> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "359" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-36.146627565982406"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-20.21114369501467"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "46.739002932551315"^^xsd:double ;
+                                               rdfs:label "Primary_motor_cortex_BA4p_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/5
+<file:/srv/protege/webprotege-data/uploads/5> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "280" ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-30.86231884057971"^^xsd:double ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-51.18115942028986"^^xsd:double ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "44.83333333333333"^^xsd:double ;
+                                              rdfs:label "Anterior_intra-parietal_sulcus_hIP3_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/50
+<file:/srv/protege/webprotege-data/uploads/50> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "319" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "36.69736842105263"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-20.328947368421055"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "47.75"^^xsd:double ;
+                                               rdfs:label "Primary_motor_cortex_BA4p_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/51
+<file:/srv/protege/webprotege-data/uploads/51> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "893" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-44.391011235955055"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-25.923595505617982"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "56.37528089887641"^^xsd:double ;
+                                               rdfs:label "Primary_somatosensory_cortex_BA1_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/52
+<file:/srv/protege/webprotege-data/uploads/52> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "852" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "41.84269662921349"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-17.146067415730343"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-5.235955056179776"^^xsd:double ;
+                                               rdfs:label "Primary_somatosensory_cortex_BA1_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/53
+<file:/srv/protege/webprotege-data/uploads/53> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "853" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-39.54761904761905"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-34.81904761904762"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "51.292857142857144"^^xsd:double ;
+                                               rdfs:label "Primary_somatosensory_cortex_BA2_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/54
+<file:/srv/protege/webprotege-data/uploads/54> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "911" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "36.91328210757409"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-34.79253567508232"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "52.78155872667398"^^xsd:double ;
+                                               rdfs:label "Primary_somatosensory_cortex_BA2_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/55
+<file:/srv/protege/webprotege-data/uploads/55> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "402" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-34.83084577114428"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-22.09950248756219"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "39.442786069651746"^^xsd:double ;
+                                               rdfs:label "Primary_somatosensory_cortex_BA3a_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/56
+<file:/srv/protege/webprotege-data/uploads/56> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "403" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "33.032745591939545"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-22.30226700251889"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "41.38539042821159"^^xsd:double ;
+                                               rdfs:label "Primary_somatosensory_cortex_BA3a_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/57
+<file:/srv/protege/webprotege-data/uploads/57> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "575" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-49.497175141242934"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-14.655367231638422"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "37.37288135593221"^^xsd:double ;
+                                               rdfs:label "Primary_somatosensory_cortex_BA3b_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/58
+<file:/srv/protege/webprotege-data/uploads/58> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "852" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "39.78898007033996"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-22.243845252051585"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "47.01289566236811"^^xsd:double ;
+                                               rdfs:label "Primary_somatosensory_cortex_BA3b_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/59
+<file:/srv/protege/webprotege-data/uploads/59> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "612" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "41.84269662921349"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-17.146067415730343"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-5.235955056179776"^^xsd:double ;
+                                               rdfs:label "Secondary_somatosensory_cortex_/_Parietal_operculum_OP1_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/6
+<file:/srv/protege/webprotege-data/uploads/6> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "311" ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "41.84269662921349"^^xsd:double ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-17.146067415730343"^^xsd:double ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-5.235955056179776"^^xsd:double ;
+                                              rdfs:label "Anterior_intra-parietal_sulcus_hIP3_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/60
+<file:/srv/protege/webprotege-data/uploads/60> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "524" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "51.939047619047614"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-21.93142857142857"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "18.971428571428575"^^xsd:double ;
+                                               rdfs:label "Secondary_somatosensory_cortex_/_Parietal_operculum_OP1_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/61
+<file:/srv/protege/webprotege-data/uploads/61> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "131" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "41.84269662921349"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-17.146067415730343"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-5.235955056179776"^^xsd:double ;
+                                               rdfs:label "Secondary_somatosensory_cortex_/_Parietal_operculum_OP2_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/62
+<file:/srv/protege/webprotege-data/uploads/62> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "159" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "35.7375"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-20.3125"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "18.75"^^xsd:double ;
+                                               rdfs:label "Secondary_somatosensory_cortex_/_Parietal_operculum_OP2_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/63
+<file:/srv/protege/webprotege-data/uploads/63> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "310" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "41.84269662921349"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-17.146067415730343"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-5.235955056179776"^^xsd:double ;
+                                               rdfs:label "Secondary_somatosensory_cortex_/_Parietal_operculum_OP3_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/64
+<file:/srv/protege/webprotege-data/uploads/64> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "299" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "41.506756756756744"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-9.979729729729726"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "18.30405405405405"^^xsd:double ;
+                                               rdfs:label "Secondary_somatosensory_cortex_/_Parietal_operculum_OP3_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/65
+<file:/srv/protege/webprotege-data/uploads/65> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "596" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-56.39865996649916"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-8.324958123953095"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "13.460636515912896"^^xsd:double ;
+                                               rdfs:label "Secondary_somatosensory_cortex_/_Parietal_operculum_OP4_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/66
+<file:/srv/protege/webprotege-data/uploads/66> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "515" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "59.67441860465115"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-7.093023255813961"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "14.116279069767444"^^xsd:double ;
+                                               rdfs:label "Secondary_somatosensory_cortex_/_Parietal_operculum_OP4_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/67
+<file:/srv/protege/webprotege-data/uploads/67> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "160" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-14.65408805031447"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-34.075471698113205"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "43.72327044025157"^^xsd:double ;
+                                               rdfs:label "Superior_parietal_lobule_5Ci_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/68
+<file:/srv/protege/webprotege-data/uploads/68> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "230" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "12.24242424242425"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-33.6103896103896"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "45.307359307359306"^^xsd:double ;
+                                               rdfs:label "Superior_parietal_lobule_5Ci_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/69
+<file:/srv/protege/webprotege-data/uploads/69> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "496" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "41.84269662921349"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-17.146067415730343"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-5.235955056179776"^^xsd:double ;
+                                               rdfs:label "Superior_parietal_lobule_5L_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/7
+<file:/srv/protege/webprotege-data/uploads/7> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "57" ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-23.684210526315795"^^xsd:double ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-9.649122807017548"^^xsd:double ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-7.543859649122808"^^xsd:double ;
+                                              rdfs:label "Amygdala_centromedial_group_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/70
+<file:/srv/protege/webprotege-data/uploads/70> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "666" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "13.933734939759034"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-49.445783132530124"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "70.53915662650601"^^xsd:double ;
+                                               rdfs:label "Superior_parietal_lobule_5L_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/71
+<file:/srv/protege/webprotege-data/uploads/71> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "375" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-6.731707317073173"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-40.86720867208672"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "53.6910569105691"^^xsd:double ;
+                                               rdfs:label "Superior_parietal_lobule_5M_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/72
+<file:/srv/protege/webprotege-data/uploads/72> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "400" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "41.84269662921349"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-17.146067415730343"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-5.235955056179776"^^xsd:double ;
+                                               rdfs:label "Superior_parietal_lobule_5M_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/73
+<file:/srv/protege/webprotege-data/uploads/73> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "1858" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-18.618945102260497"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-60.427341227125936"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "59.87190527448871"^^xsd:double ;
+                                               rdfs:label "Superior_parietal_lobule_7A_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/74
+<file:/srv/protege/webprotege-data/uploads/74> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "1283" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "20.32293291731669"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-60.56630265210609"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "60.62090483619346"^^xsd:double ;
+                                               rdfs:label "Superior_parietal_lobule_7A_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/75
+<file:/srv/protege/webprotege-data/uploads/75> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "94" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "41.84269662921349"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-17.146067415730343"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-5.235955056179776"^^xsd:double ;
+                                               rdfs:label "Superior_parietal_lobule_7M_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/76
+<file:/srv/protege/webprotege-data/uploads/76> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "221" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "4.576576576576571"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-70.46846846846847"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "37.30630630630631"^^xsd:double ;
+                                               rdfs:label "Superior_parietal_lobule_7M_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/77
+<file:/srv/protege/webprotege-data/uploads/77> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "179" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-33.75141242937853"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-49.11864406779661"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "58.553672316384166"^^xsd:double ;
+                                               rdfs:label "Superior_parietal_lobule_7PC_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/78
+<file:/srv/protege/webprotege-data/uploads/78> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "370" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "31.10027100271003"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-48.31978319783198"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "58.991869918699194"^^xsd:double ;
+                                               rdfs:label "Superior_parietal_lobule_7PC_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/79
+<file:/srv/protege/webprotege-data/uploads/79> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "636" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-8.676100628930811"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-74.61006289308176"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "50.86477987421384"^^xsd:double ;
+                                               rdfs:label "Superior_parietal_lobule_7P_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/8
+<file:/srv/protege/webprotege-data/uploads/8> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "66" ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "26.746268656716424"^^xsd:double ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-9.104477611940297"^^xsd:double ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-7.432835820895519"^^xsd:double ;
+                                              rdfs:label "Amygdala_centromedial_group_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/80
+<file:/srv/protege/webprotege-data/uploads/80> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "758" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "14.684280052840165"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-72.56010568031704"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "55.315719947159835"^^xsd:double ;
+                                               rdfs:label "Superior_parietal_lobule_7P_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/81
+<file:/srv/protege/webprotege-data/uploads/81> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "1997" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-8.24649298597194"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-84.97995991983967"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "4.2374749498997915"^^xsd:double ;
+                                               rdfs:label "Visual_cortex_V1_BA17_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/82
+<file:/srv/protege/webprotege-data/uploads/82> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "2384" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "13.807046979865774"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-81.88842281879195"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "3.785234899328856"^^xsd:double ;
+                                               rdfs:label "Visual_cortex_V1_BA17_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/83
+<file:/srv/protege/webprotege-data/uploads/83> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "1693" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-11.589349112426035"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-86.55266272189348"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "7.1065088757396495"^^xsd:double ;
+                                               rdfs:label "Visual_cortex_V2_BA18_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/84
+<file:/srv/protege/webprotege-data/uploads/84> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "1873" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "41.84269662921349"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-17.146067415730343"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-5.235955056179776"^^xsd:double ;
+                                               rdfs:label "Visual_cortex_V2_BA18_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/85
+<file:/srv/protege/webprotege-data/uploads/85> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "600" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-21.043333333333337"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-87.98666666666666"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-6.036666666666662"^^xsd:double ;
+                                               rdfs:label "Visual_cortex_V3V_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/86
+<file:/srv/protege/webprotege-data/uploads/86> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "649" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "26.387692307692305"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-82.35076923076923"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-7.821538461538466"^^xsd:double ;
+                                               rdfs:label "Visual_cortex_V3V_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/87
+<file:/srv/protege/webprotege-data/uploads/87> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "781" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-26.94451612903226"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-79.7574193548387"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-10.291612903225804"^^xsd:double ;
+                                               rdfs:label "Visual_cortex_V4_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/88
+<file:/srv/protege/webprotege-data/uploads/88> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "647" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "34.0"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-75.87037037037037"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-10.478395061728392"^^xsd:double ;
+                                               rdfs:label "Visual_cortex_V4_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/89
+<file:/srv/protege/webprotege-data/uploads/89> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "155" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-41.92307692307692"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-74.23076923076923"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "5.256410256410263"^^xsd:double ;
+                                               rdfs:label "Visual_cortex_V5_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/9
+<file:/srv/protege/webprotege-data/uploads/9> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "314" ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-26.36190476190476"^^xsd:double ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-4.7873015873015845"^^xsd:double ;
+                                              <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-22.86349206349206"^^xsd:double ;
+                                              rdfs:label "Amygdala_laterobasal_group_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/90
+<file:/srv/protege/webprotege-data/uploads/90> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "165" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "49.20481927710844"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-65.98795180722891"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "4.385542168674704"^^xsd:double ;
+                                               rdfs:label "Visual_cortex_V5_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/91
+<file:/srv/protege/webprotege-data/uploads/91> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "4957" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-19.930171543895057"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-6.144904137235116"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "60.24581231079719"^^xsd:double ;
+                                               rdfs:label "Premotor_cortex_BA6_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/92
+<file:/srv/protege/webprotege-data/uploads/92> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "4949" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "21.325116185087893"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-6.42796524550414"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "60.14103859365528"^^xsd:double ;
+                                               rdfs:label "Premotor_cortex_BA6_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/93
+<file:/srv/protege/webprotege-data/uploads/93> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "34" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "41.84269662921349"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-17.146067415730343"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-5.235955056179776"^^xsd:double ;
+                                               rdfs:label "Lateral_geniculate_body_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/94
+<file:/srv/protege/webprotege-data/uploads/94> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "27" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-22.07142857142857"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-24.14285714285714"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-8.714285714285715"^^xsd:double ;
+                                               rdfs:label "Lateral_geniculate_body_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/95
+<file:/srv/protege/webprotege-data/uploads/95> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "11" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "17.0"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-24.66666666666667"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-8.5"^^xsd:double ;
+                                               rdfs:label "Medial_geniculate_body_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/96
+<file:/srv/protege/webprotege-data/uploads/96> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "15" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-15.625"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-26.0"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-8.25"^^xsd:double ;
+                                               rdfs:label "Medial_geniculate_body_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/97
+<file:/srv/protege/webprotege-data/uploads/97> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "76" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-39.94805194805195"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-17.766233766233768"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-3.142857142857139"^^xsd:double ;
+                                               rdfs:label "Insula_Id1_L" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/98
+<file:/srv/protege/webprotege-data/uploads/98> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "88" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "41.84269662921349"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-17.146067415730343"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "-5.235955056179776"^^xsd:double ;
+                                               rdfs:label "Insula_Id1_R" .
+
+
+###  file:/srv/protege/webprotege-data/uploads/99
+<file:/srv/protege/webprotege-data/uploads/99> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#size> "21" ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#x_center> "-31.81818181818182"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#y_center> "-28.909090909090907"^^xsd:double ;
+                                               <http://www.thevirtualbrain.org/tvb-o/brainParc#z_center> "13.454545454545453"^^xsd:double ;
+                                               rdfs:label "Insula_Ig1_L" .
+
+
+###  http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich
+<http://www.thevirtualbrain.org/tvb-o/brainParc#Juelich> rdf:type owl:Class ;
+                                                         rdfs:subClassOf owl:Thing .
+
+
+###  Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi
